@@ -1,0 +1,26 @@
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+<div ng-app="" ng-controller="resultController">
+  <div class="center">
+
+    <form>
+      <input id="searchentry" type="text" placeholder="Search" name="search" ng-model="searchText" />
+
+      <img id="searchwiki" src="https://www.palantir.com/wp-assets/wp-content/static/techblog/2009/08/200px-magnifying_glass_icon.png"></img>
+    </form>
+    <a href="http://en.wikipedia.org/wiki/Special:Random"><img src="https://camo.githubusercontent.com/f4d9e002c2952b2384d97380e7063eecf6a7af82/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333739343830312f323235323934382f63303239306564632d396462322d313165332d383665322d3530313933373561356430632e706e67" style="width:20px" id="random"></img></a>
+  </div>
+<div class="returnedresults">
+  <div ng-repeat="result in results">
+    <div class="panel panel-default" id="panel">
+      <div class="panel-heading">
+        <h3 class="panel-title"><a ng-href='{{result.page}}'class="title">{{ result.title }}</a></h3>
+      </div>
+      <div class="panel-body">
+        <p>{{ result.body }}...</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>

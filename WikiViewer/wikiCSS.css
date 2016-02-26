@@ -1,0 +1,49 @@
+
+.ng-scope{
+  padding-bottom:20px;
+}
+.center{
+  margin-left:35%;
+}
+#panel{
+  width:800px;
+  margin:auto;
+
+}
+input{
+  padding: 0.5em;
+  margin-bottom:10px;
+  font-size: 1.45em;
+  border: 0;
+  border-bottom: 2px solid black;
+  width: 40%;
+  -webkit-box-shadow: none;
+  box-shadow: 0;
+  color: black;
+  outline: none;
+
+  &:focus{
+    border-bottom-color: black;
+  }
+}
+
+img{
+  width:30px;
+}
+img:hover{
+  cursor: pointer;
+
+}
+
+.title{
+  font-size:22px;
+  color:blue;
+}
+
+.hide{
+  display:none;
+}
+
+#random:hover{
+  transform: rotateX(-180deg);
+}
