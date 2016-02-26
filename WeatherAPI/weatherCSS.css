@@ -1,0 +1,36 @@
+body{
+  background-color:black;
+  height:500px;
+}
+h1{
+  color:white;
+}
+
+ .weather{
+  color:white;
+ }
+
+.description{
+  color:white;
+  font-size:22px;
+  padding-left:45%;
+}
+.togglecelcius{
+  width:60px;
+  height:25px;
+  background-color:white;
+  margin-left:45%;
+  border-radius:4px;
+  font-weight:bold;
+}
+
+.togglefehren{
+  width:60px;
+  height:25px;
+  background-color:grey;
+  color:white;
+  margin-left:45%;
+  border-radius:4px;
+  font-weight:bold;
+
+}
