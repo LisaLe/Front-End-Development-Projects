@@ -1,0 +1,59 @@
+body {
+    background-color: #cce5ff;
+}
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-top: 10px;
+}
+
+.quote {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  font-weight:bold;
+  font-size:26px;
+
+}
+img{
+   margin-left: auto;
+    margin-right: auto;
+}
+
+.new-quote-button {
+    background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-top:50px;
+  margin-bottom:90px;
+  text-decoration: none;
+}
+.new-quote-button:hover{
+  background: white;
+  color:black;
+  background-image: -webkit-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -moz-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -ms-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -o-linear-gradient(top, #fafafa, #ffffff);
+  background-image: linear-gradient(to bottom, #fafafa, #ffffff);
+  text-decoration: none;
+}
+button {
+  width: 80%;
+}
