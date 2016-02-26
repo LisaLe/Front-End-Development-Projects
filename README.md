@@ -1,3 +1,3 @@
 # Front-End-Development-Projects
 
-Projects from free code camp
+Free code camp projects.
